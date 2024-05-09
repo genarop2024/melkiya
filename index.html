@@ -20,7 +20,16 @@
 		<article>
 			<h1>Recipient</h1>
 			<address contenteditable>
-				<p>Add Company Name<br>Add customer name</p>
+				<form action="/action_page.php">
+  					<label for="cars">Choose a Customer:</label>
+  					<select name="cars" id="cars">
+    						<option value="Guest-01">Volvo</option>
+    						<option value="Guest-02">Saab</option>
+    						<option value="Guest-03">Opel</option>
+    						<option value="Guest-04">Audi</option>
+  					</select>
+  					<br><br>
+				</form>
 			</address>
 			<table class="meta">
 				<tr>
